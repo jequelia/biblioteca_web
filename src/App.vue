@@ -44,7 +44,6 @@ export default {
   color: white;
   background-repeat: space;
   background-repeat: round;
-  /* margin-top: -3%; */
   opacity: 0.7;
 }
 #buttom{

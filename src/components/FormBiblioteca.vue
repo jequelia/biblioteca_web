@@ -67,11 +67,9 @@ export default {
 
     onReset(evt) {
       evt.preventDefault();
-      // Reset our form values
       this.form.titulo = "";
       this.form.editora = "";
       this.form.quantidadePaginas = "";
-      // Trick to reset/clear native browser form validation state
       this.show = false;
       this.$nextTick(() => {
         this.show = true;
