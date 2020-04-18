@@ -1,6 +1,8 @@
 # biblioteca
 Esse projeto representa uma biblioteca online, onde é permitido cadastar, editar, ver e excluir um livro.
 
+obs: editar e excluir está com bug.
+
 # App.vue
 arquivo principal
 
