@@ -1,24 +1,15 @@
 # biblioteca
+Esse projeto representa uma biblioteca online, onde é permitido cadastar, editar, ver e excluir um livro.
 
-## Project setup
-```
-yarn install
-```
+# App.vue
+arquivo principal
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+# components
+Existem dois components: 
+- um utilizado para construir o forms(Cadastro) - formBiblioteca
+- outro utilizado para listar os livros - Biblioteca
+# css
+Foi utlizando bootstrap-vue para facilitar na resposividade do site.
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# comunicação com o back
+Foi utilizado a  biblioteca de clientes http axios.
