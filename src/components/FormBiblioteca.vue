@@ -61,7 +61,7 @@ export default {
     onSubmit(evt) {
       evt.preventDefault();
       axios
-        .post("http://localhost:8081/livros", this.form)
+        .post("http://localhost:8080/livros", this.form)
         .then(res => this.$emit("emit-comment", res));
     },
 

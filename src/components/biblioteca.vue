@@ -45,14 +45,14 @@ export default {
   },
   methods: {
     get() {
-      axios.get("http://localhost:8081/livros").then(res => {
+      axios.get("http://localhost:8080/livros").then(res => {
         this.items = res.data;
       });
     },
 
     apagar: function(items) {
       axios
-        .delete("http://localhost:8081/" + items)
+        .delete("http://localhost:8080/" + items)
         .then(resultado => {
           console.log(resultado)
         })
@@ -61,7 +61,7 @@ export default {
 
     editar: function(items) {
       axios
-        .put("http://localhost:8081/" + items)
+        .put("http://localhost:8080/" + items)
         .then(resultado => {
           let indice = this.resultados.indexOf(resultado);
           this.resultados.splice(indice, 1);
